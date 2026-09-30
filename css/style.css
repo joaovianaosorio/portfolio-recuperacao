@@ -107,7 +107,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent-secondary);
+  color: var(--accent-hover);
 }
 
 img {
@@ -168,6 +168,7 @@ button, input, textarea {
 
 .gradient-text {
   background: var(--accent-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -572,8 +573,8 @@ button, input, textarea {
   margin-top: 0.4rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--accent-secondary);
-  background: rgba(139, 92, 246, 0.1);
+  color: var(--accent-primary);
+  background: rgba(59, 130, 246, 0.1);
   padding: 0.2rem 0.6rem;
   border-radius: var(--radius-sm);
 }
